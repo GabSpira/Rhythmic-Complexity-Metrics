@@ -13,7 +13,7 @@ pm_PovEss = pretty_midi.PrettyMIDI('./data/Povel&Essens 1985/Povel&Essens - 1.mi
 # Essens patterns
 pm_Ess = pretty_midi.PrettyMIDI('./data/Essens 1995/Essens - 1.mid')
 
-# Fitch & Rosenveld patterns
+# Fitch & Rosenfeld patterns
 pm_FitRos = pretty_midi.PrettyMIDI('./data/Fitch&Rosenfeld 2007/Fitch&Rosenfeld - 15.mid')
 
 
@@ -44,7 +44,7 @@ metrics = Metrics(length, onsets_indeces)
 
 
 # Plot the pattern in piano roll with beats
-plot_beats(pm, 45, 70)
+# plot_beats(pm, 45, 70)
 
 # Print the pattern as a binary sequence
 pattern = get_pattern(length, onsets_indeces)
